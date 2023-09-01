@@ -366,4 +366,4 @@ function wat_to_spwn(code) {
 
 let compile_c = (c) => (async () => eval(wat_to_spwn(await c_to_wat(c))))();
 
-module.exports = { compile_c, compile }
+module.exports = { compile_c, compile: wat_to_spwn }
