@@ -2,7 +2,7 @@
 wa-spwn, except rewritten for G.js + is runtime
 
 # What is this?
-This basically compiles WASM to a G.js result. If you don't know what [G.js](https://github.com/RealSput/g.js) is, it's basically SPWN except a JS library.
+This basically compiles WASM to a G.js result. If you don't know what [G.js](https://github.com/RealSput/g.js) is, it's basically a library similar to SPWN that I made, except not its separate programming language.
 You can also compile C to a G.js result with this using the `compile_c` function.
 
 # Show an example.
